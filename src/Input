@@ -1,0 +1,65 @@
+Utilizador:000001,Roberto Firmino,robertinho@gmail.com,rua do caralho,123456789
+Utilizador:000002,Marcelo Silva,marcelosilva@gmail.com,rua dos coqueiros,987654321
+Utilizador:000003,Ana Paula Vieira,anapaulavieira@hotmail.com,av. João Pessoa,546372819
+Utilizador:000004,Lucas Martins,lucasmartins@gmail.com,rua São João,394857261
+Utilizador:000005,Amanda Alves,amandaalves@gmail.com,rua do Sol,908456732
+Utilizador:000006,Julia Santos,juliasantos@hotmail.com,rua da Paz,846293057
+Utilizador:000007,Leonardo Oliveira,leonardooliveira@gmail.com,av. dos Bandeirantes,214365870
+Utilizador:000008,Priscila Silva,priscilasilva@hotmail.com,rua das Flores,735261984
+Utilizador:000009,Guilherme Souza,guilhermesouza@gmail.com,rua São Francisco,901234567
+Utilizador:000010,Gabriela Ferreira,gabrielaferreira@hotmail.com,rua das Palmeiras,654372819
+Utilizador:000011,João Santos,joaosantos@gmail.com,av. Paulista,354267198
+Utilizador:000012,Carla Lima,carlalima@hotmail.com,rua da Esperança,729384615
+Utilizador:000013,Lucas Silva,lucassilva@gmail.com,rua do Girassol,654329871
+Utilizador:000014,Mariana Castro,marianacastro@hotmail.com,av. Atlântica,247685390
+Utilizador:000015,Diego Oliveira,diegooliveira@gmail.com,rua dos Pinheiros,364295870
+Utilizador:000016,Lívia Costa,liviacosta@hotmail.com,rua da Boa Vista,423176985
+Utilizador:000017,Paulo Santos,paulosantos@gmail.com,av. da Liberdade,547892631
+Utilizador:000018,Beatriz Ribeiro,beatrizribeiro@hotmail.com,rua das Laranjeiras,926748513
+Utilizador:000019,André Silva,andresilva@gmail.com,rua da Saudade,102938475
+Utilizador:000020,Rafaela Souza,rafaelasouza@hotmail.com,av. Faria Lima,198734562
+Utilizador:000021,Bruno Oliveira,brunooliveira@gmail.com,rua dos Cravos,723456981
+Utilizador:000022,Carolina Santos,carolinasantos@hotmail.com,rua dos Ipês,398574612
+Utilizador:000023,Rodrigo Ferreira,rodrigoferreira@gmail.com,av. Brasil,865239714
+Utilizador:000024,Marcos Santos,marcossantos@hotmail.com,rua da Gloria,139856247
+Utilizador:000025,Juliana Ribeiro,julianaribeiro@gmail.com,rua das Violetas,567293841
+Utilizador:000026,Leonardo Alves,leonardoalves@hotmail.com,av. das Flores,918273456
+Utilizador:000027,Luana Lima,luanalima@gmail.com,rua do Ipê,382659147
+Utilizador:000028,Arthur Ferreira,arthurferreira@hotmail.com,av. Rio Branco,495872631
+Utilizador:000029,Isabela Costa,isabelacosta@gmail.com,rua da Paz,729846513
+Utilizador:000030,Daniel Souza,danielsouza@hotmail.com,rua das Águias,246835791
+-----//-----
+Sapatilhas:novo, ,bonito,Nike,0000001,100,UPS,40,sim,preto,2011,false,15
+Sapatilhas:usado,3,desportivo,Adidas,0000002,150,CTT,41,não,branco,2012,true,20
+Sapatilhas:novo, ,confortável,New Balance,0000003,80,MRW,39,não,azul,2010,false,10
+Sapatilhas:usado,1,desportivo,Reebok,0000004,120,CTT,43,sim,vermelho,2013,true,30
+Sapatilhas:novo, ,clássico,Puma,0000005,90,SEUR,44,não,castanho,2012,true,0
+Sapatilhas:novo, ,casual,Converse,0000006,70,CTT,39,não,amarelo,2013,true,0
+Sapatilhas:novo, ,desportivo,Nike,0000007,120,UPS,41,não,verde,2011,false,20
+Sapatilhas:novo, ,desportivo,Adidas,0000008,80,MRW,44,sim,preto,2010,false,5
+Sapatilhas:usado,5,clássico,New Balance,0000009,50,CTT,34,não,branco,2012,true,50
+Sapatilhas:novo, ,desportivo,Reebok,0000010,100,SEUR,42,sim,azul,2013,true,10
+Sapatilhas:usado,2,casual,Puma,0000011,60,CTT,36,não,vermelho,2011,true,0
+Sapatilhas:novo, ,desportivo,Nike,0000012,130,UPS,43,não,verde,2010,false,25
+Sapatilhas:novo, ,casual,Converse,0000013,90,MRW,38,não,amarelo,2013,true,0
+Sapatilhas:novo, ,bonito,Adidas,0000014,80,SEUR,40,sim,preto,2011,false,15
+Sapatilhas:novo, ,confortável,New Balance,0000015,100,CTT,39,não,azul,2012,true,5
+Sapatilhas:usado,4,desportivo,Reebok,0000016,90,MRW,43,sim,vermelho,2013,true,20
+Sapatilhas:novo, ,desportivo,Adidas,0000017,120,CTT,41,não,preto,2010,false,10
+Sapatilhas:usado,1,casual,Puma,0000018,60,UPS,37,não,branco,2012,true,0
+Sapatilhas:novo, ,desportivo,Nike,0000019,140,CTT,42,sim,verde,2011,false,30
+Sapatilhas:usado,3,desportivo,New Balance,0000020,100,MRW,44,não,castanho,2013,true,40
+Sapatilhas:novo, ,bonito,Converse,0000021,80,SEUR,39,não,amarelo,2011,true,0
+Sapatilhas:usado,2,desportivo,Reebok,0000022,70,CTT,43,não,azul,2012,true,0
+Sapatilhas:novo, ,casual,Puma,0000023,50,UPS,38,não,vermelho,2010,true,0
+-----//----- (valor base para : encomendas pequenas, médias e grandes + impostos + formula)
+Transportadoras:UPS,3,5,9,10,PE=VB*3*(1+IMP)*0.8
+Transportadoras:CTT,4,6,12,PE=VB*(1+IMP)*1.2
+Transportadoras:MRW,2,4,7,PE=VB*7*(1+IMP)*0.5
+Transportadoras:SEUR,5,9,14,PE=VB*2*(1+IMP)
+-----//-----
+Comprador: nome, email, code, [001, 002 , 003, 004, 005]
+
+Transportadora: CTT,[001,002,003] ID dos produtos
+ESTE FICHEIRO VAI TER Q SER MUDADO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
